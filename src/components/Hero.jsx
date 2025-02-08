@@ -46,8 +46,8 @@ export default function Hero() {
       </div>
 
     
-      <div className="py-16 bg-gray-100">
-        <h2 className="text-3xl font-semibold text-center text-gray-800">Featured Cars for Rent</h2>
+      <div className="py-16 bg-gray-950">
+        <h2 className="text-3xl font-semibold text-center text-gray-100">Featured Cars for Rent</h2>
         <div className="flex justify-center gap-8 mt-8">
          
           <div className="w-1/4 bg-white p-6 rounded-lg shadow-lg text-center">
@@ -67,22 +67,22 @@ export default function Hero() {
 
      <AboutUs />
 
-      <div className="py-16 bg-gray-100">
-        <h2 className="text-3xl font-semibold text-center text-gray-800">How It Works</h2>
+      <div className="pb-16 bg-black">
+        <h2 className="text-3xl font-semibold text-center text-gray-100">How It Works</h2>
         <div className="flex justify-center gap-12 mt-8">
           <div className="w-1/3 text-center">
             <FaCar className="text-5xl text-orange-500 mx-auto" />
-            <h3 className="text-xl font-semibold mt-4">Choose a Car</h3>
-            <p className="mt-2">Browse our selection of available cars for rent.</p>
+            <h3 className="text-xl font-semibold mt-4 text-gray-100">Choose a Car</h3>
+            <p className="mt-2 text-gray-100">Browse our selection of available cars for rent.</p>
           </div>
           <div className="w-1/3 text-center">
             <FaMapMarkerAlt className="text-5xl text-orange-500 mx-auto" />
-            <h3 className="text-xl font-semibold mt-4">Pick a Location</h3>
+            <h3 className="text-xl font-semibold mt-4 text-gray-100">Pick a Location</h3>
             <p className="mt-2">Select a pickup location that’s convenient for you.</p>
           </div>
           <div className="w-1/3 text-center">
             <FaStar className="text-5xl text-orange-500 mx-auto" />
-            <h3 className="text-xl font-semibold mt-4">Enjoy the Ride</h3>
+            <h3 className="text-xl font-semibold mt-4 text-gray-100">Enjoy the Ride</h3>
             <p className="mt-2">Drive away with the car of your dreams!</p>
           </div>
         </div>
