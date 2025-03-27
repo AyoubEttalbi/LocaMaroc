@@ -50,7 +50,7 @@ export default function Hero() {
         <h2 className="text-3xl font-semibold text-center text-gray-100">Featured Cars for Rent</h2>
         <div className="flex justify-center gap-8 mt-8">
          
-          <div className="w-1/4 bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="w-1/4 bg-gray-300 p-6 rounded-lg shadow-lg text-center">
             <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=258L&client=byo&paint=P0300&fabric=FLKSW&sa=S01MA,S01TH,S0302,S0319,S0322,S03MF,S0415,S0416,S0453,S04GQ,S04HB,S04MC,S04NB,S05AC,S05AZ,S06AC,S06AK,S06C4,S06NW,S06U3,S06WD,S0712,S0760,S0776,S07M9,S07MA&quality=70&bkgnd=transparent&resp=png&angle=60"alt="Car" className="w-full h-48 object-cover rounded-lg" />
             <h3 className="text-xl font-bold mt-4">Luxury Sedan</h3>
             <p className="text-gray-600 mt-2">From $50/day</p>

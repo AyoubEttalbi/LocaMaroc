@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { FaBabyCarriage, FaPlus, FaCheck } from 'react-icons/fa';
 import Navbar from './Navbar';
-import mercedeslogo from '../assets/mercedes-logo.png'
-import AudiA6 from "../assets/audiA6.png"
+import mercedeslogo from '../assets/mercedes-logo.png'; 
+import AudiA6 from "../assets/audiA6.png"; 
+import audiLogo from "../assets/audi-logo.png"
 export default function Cars() {
   const popularCars = [
     {
@@ -18,7 +19,7 @@ export default function Cars() {
       id: 2,
       name: 'Mercedes C-Class',
       brand: 'Mercedes',
-      logo: {mercedeslogo},
+      logo: mercedeslogo, 
       image: 'https://www.motortrend.com/uploads/sites/10/2018/11/2019-mercedes-benz-c-class-c300-sedan-angular-front.png',
       description: 'Experience premium driving with advanced features.',
       price: '$140/day',
@@ -27,8 +28,8 @@ export default function Cars() {
       id: 3,
       name: 'Audi A6',
       brand: 'Audi',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Audi_logo.svg',
-      image: {AudiA6},
+      logo: 'https://th.bing.com/th/id/R.1e0abc8926c001adbc10a9fc395fed50?rik=U1OUsfrQbCZQYQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2faudi-logo-png-audi-logo-rings-symbol-4880.png&ehk=X02d5HuUWJ8hWO5ZyroCb7jpGE%2fGj1b8D2KRK5XoY78%3d&risl=&pid=ImgRaw&r=0',
+      image: AudiA6, 
       description: 'A stylish executive car with top-tier performance.',
       price: '$130/day',
     },
@@ -56,7 +57,7 @@ export default function Cars() {
                   selectedBrand === brand ? 'bg-orange-500 text-white' : 'bg-gray-800 text-gray-100 hover:bg-gray-700'
                 }`}
               >
-                {logo && <img src={logo} alt={brand} className="w-6 h-6" />}
+                {logo && <img src={logo} alt={brand} className="w-7 h-6" />}
                 <span>{brand}</span>
               </button>
             ))}
@@ -88,7 +89,7 @@ function CarCard({ car }) {
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
       <img src={car.image} alt={car.name} className="w-full h-48 object-cover rounded-lg mb-4" />
       <div className="flex items-center gap-2 mb-2">
-        <img src={car.logo} alt={car.brand} className="w-6 h-6" />
+        <img src={car.logo} alt={car.brand} className="w-8 h-6" />
         <h3 className="text-xl font-bold text-gray-900">{car.name}</h3>
       </div>
       <p className="text-gray-700 mb-4">{car.description}</p>
