@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Cart from './components/Cart';
+import CarReservation from './components/CarReservation';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/reservation/:carId" element={<CarReservation />} />
         </Routes>
       </div>
     </Router>
